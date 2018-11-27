@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Christmas Card</title>
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="soundContainer">
+        <audio id="christmasMusic">
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="modal" id="setup">
+        <div class="panel">
+            <div class="title"><span class="Naughty">Naughty</span> or <span class="Nice">Nice</span></div>
+            <div class="modalContainer">
+                <input id="name" type="text" placeholder="Enter Name">
+                <button id="getName" onclick="getList()">Check The List</button>
+            </div>
+        </div>
+    </div>
+    <div class="mainContainer">
+        <div class="display"></div>
+    </div>
+</body>
+</html>

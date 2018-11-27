@@ -1,0 +1,74 @@
+html {
+    font-family: 'Mountains of Christmas', cursive;
+    margin: 0 auto;
+    padding: 0;
+    background-color: lightskyblue;
+    width: 950px;
+    height: 100%;
+    cursor: url(http://cur.cursors-4u.net/holidays/hol-5/hol417.cur), auto !important;
+}
+
+body {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(enlightened_santa.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 700px;
+}
+
+.display {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nOrN {
+    font-size: 35px;
+}
+
+.reason {
+    font-size: 20px;
+}
+
+.Nice {
+    color: #1e824c;
+}
+
+.Naughty {
+    color: #cf000f;
+}
+
+.modal {
+    padding: 25px;
+}
+
+.panel {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#getName {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 15px;
+}
+
+input {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 15px;
+}
